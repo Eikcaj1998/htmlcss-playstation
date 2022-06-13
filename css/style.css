@@ -1,0 +1,14 @@
+
+.sony img{
+    width: 80px;
+}
+.jumbotron-img{
+    height: 90vh;
+    color: white;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;  
+}
+.bg-CD3D0F{background-color: #CD3D0F;}

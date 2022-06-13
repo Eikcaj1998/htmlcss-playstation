@@ -1,4 +1,7 @@
-
+.color-1a80d3{color: #1a80d3}
+a{
+    text-decoration: none;
+}
 .sony img{
     width: 80px;
 }
@@ -12,3 +15,11 @@
     align-items: flex-end;  
 }
 .bg-CD3D0F{background-color: #CD3D0F;}
+.disp-none{
+    display: none;
+}
+/* media query */
+@media screen and (min-width: 992px) { 
+    .disp-none{display: inline-block;}
+    
+}

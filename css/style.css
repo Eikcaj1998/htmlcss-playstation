@@ -16,9 +16,8 @@ a{
     position: absolute;
     top: 60px;
     left: 0;
+    right: 0;
     height: auto;
-    width: 100%;
-    max-height: 220px;
 }
 .accordion{
     --bs-accordion-btn-icon-width: 0.7rem;

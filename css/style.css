@@ -27,6 +27,12 @@ a{
 .nuove-uscite p{
     color: white;
 }
+sup {
+    position: relative;
+    font-size: 25px;
+    top: -6px;
+    right: 5px;
+}
 /* media query */
 @media screen and (min-width: 992px) { 
     .disp-none{display: inline-block;}

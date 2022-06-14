@@ -1,4 +1,7 @@
 .color-1a80d3{color: #1a80d3}
+body{
+    padding-top: 90px;
+}
 a{
     text-decoration: none;
 }
@@ -6,7 +9,7 @@ a{
     width: 80px;
 }
 .jumbotron-img{
-    height: 90vh;
+    height: 60vh;
     color: white;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -15,8 +18,11 @@ a{
     align-items: flex-end;  
 }
 .bg-CD3D0F{background-color: #CD3D0F;}
-.disp-none{
-    display: none;
+.evidence-game{
+    color: white;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
 }
 /* media query */
 @media screen and (min-width: 992px) { 

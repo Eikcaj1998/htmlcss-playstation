@@ -1,4 +1,6 @@
 .bg-CD3D0F{background-color: #CD3D0F;}
+.bg-BEBCBB{background-color: #BEBCBB;}
+.bg-D9DADC{background-color: #D9DADC;}
 .color-1a80d3{color: #1a80d3}
 body{
     padding-top: 90px;
@@ -8,6 +10,17 @@ a{
 }
 .sony img{
     width: 80px;
+}
+.platform{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    height: auto;
+    width: 100%;
+    max-height: 220px 
+}
+.accordion{
+    --bs-accordion-btn-icon-width: 0.7rem;  
 }
 .jumbotron-img{
     height: 60vh;

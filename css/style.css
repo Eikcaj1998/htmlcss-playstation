@@ -1,14 +1,14 @@
+/* color */
 .bg-CD3D0F{background-color: #CD3D0F;}
 .bg-BEBCBB{background-color: #BEBCBB;}
 .bg-D9DADC{background-color: #D9DADC;}
 .bg-161C3B{background-color: #161C3B;}
+.bg-00439C{background-color: #00439C;}
 .color-1a80d3{color: #1a80d3}
-body{
-    padding-top: 90px;
-}
-a{
-    text-decoration: none;
-}
+footer a{color: white;}
+/* utils */
+a{text-decoration: none;}
+ul{list-style-type: none;}
 .sony img{
     width: 80px;
 }
@@ -21,16 +21,17 @@ a{
 }
 .accordion{
     --bs-accordion-btn-icon-width: 0.7rem;
-
 }
 .jumbotron-img{
+    margin-top: 90px;
     height: 60vh;
     color: white;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    background-position: center;
+    background-position: top center;
     display: flex;
-    align-items: flex-end;  
+    align-items: flex-end;
+    background-repeat: no-repeat;  
 }
 .game-grid{
     color: white;
@@ -47,6 +48,15 @@ sup {
     top: -6px;
     right: 5px;
 }
+/* Footer */
+.text-group img{
+    width: 20px;
+    margin-right: 10px;
+}
+.sony-logo{
+    width: 115px;
+    margin-right: 10px;
+  }
 /* media query */
 @media screen and (min-width: 992px) { 
     .disp-none{display: inline-block;}
